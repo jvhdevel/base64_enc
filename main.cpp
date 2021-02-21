@@ -55,7 +55,7 @@ int main(int argc, const char *argv[]) {
 
   chunks = to_chunks(argv[1]);
   output = "";
-  
+
   for (chunk c : chunks) {
     for (char e : encode(c)) {
       output += e;
